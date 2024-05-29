@@ -68,10 +68,15 @@ button {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .head-menu-1 {
+  display: flex;
+  gap: 50px;
 }
 .head-menu-item {
+  font-size: 14px;
+  color: #191619;
 }
 .head-menu-link {
 }
@@ -79,9 +84,24 @@ button {
 }
 .logo-icon {
 }
+.head-m-2-wrap {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
 .head-menu-2 {
+  display: flex;
+  gap: 50px;
 }
 .head-login-btn {
+  font-weight: 700;
+  font-size: 14px;
+  color: #0cbbc7;
+  border: 1px solid #0cbbc7;
+  padding: 10px 50px;
+  width: 138px;
+  height: 38px;
+  background-color: transparent;
 }
 
 /* HERO */
