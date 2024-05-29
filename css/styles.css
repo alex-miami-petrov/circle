@@ -1,8 +1,10 @@
 body {
-  font-family: ;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  background-color: ;
-  color: ;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #fff;
+  color: #676767;
 }
 
 h1,
@@ -29,9 +31,9 @@ img {
 }
 
 .container {
-  width: ;
-  padding-left: ;
-  padding-right: ;
+  max-width: 1440px;
+  padding-left: 150px;
+  padding-right: 150px;
   margin: 0 auto;
 }
 
@@ -57,6 +59,26 @@ button {
 }
 
 /* HEADER */
+
+.header {
+}
+
+.nav {
+}
+.head-menu-1 {
+}
+.head-menu-item {
+}
+.head-menu-link {
+}
+.logo-link {
+}
+.logo-icon {
+}
+.head-menu-2 {
+}
+.head-login-btn {
+}
 
 /* HERO */
 
