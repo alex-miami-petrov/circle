@@ -61,9 +61,13 @@ button {
 /* HEADER */
 
 .header {
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 
 .nav {
+  display: flex;
+  justify-content: space-between;
 }
 .head-menu-1 {
 }
