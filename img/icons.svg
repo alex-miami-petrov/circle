@@ -3,5 +3,8 @@
 <symbol id="icon-hero" viewBox="0 0 21 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M2.667 29.333l13.333-13.333-13.333-13.333"></path>
 </symbol>
+<symbol id="icon-check" viewBox="0 0 38 32">
+<path fill="#0cbbc7" style="fill: var(--color1, #0cbbc7); stroke: var(--color2, #016359)" stroke="#016359" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M31.524 3.2l-1.754 1.908c-4.835 5.218-9.991 11.145-14.822 16.438l-8.598-7.628-3.15 4.13 1.908 1.704 10.197 9.047 1.583-1.721c5.349-5.776 11.145-12.531 16.389-18.195l1.754-1.908-3.507-3.776z"></path>
+</symbol>
 </defs>
 </svg>

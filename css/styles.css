@@ -146,8 +146,77 @@ button {
 .hero-img {
 }
 
-/*  */
+/* FEATURES */
+
+.features {
+  padding-top: 86px;
+  padding-bottom: 100px;
+}
+
+.feat-title {
+  font-weight: 700;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0cbbc7;
+  margin-bottom: 17px;
+}
+.feat-subtitle {
+  font-size: 28px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+}
+.feat-subtitle-span {
+  font-weight: 700;
+}
+.feat-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 53px;
+}
+.feat-item {
+}
+.feat-icon {
+}
+.ul-content-wrap {
+  display: flex;
+}
+
+
+.feat-list-2-wrap {
+  display: flex;
+}
+.feat-list-2 {
+display: flex;
+
+  
+}
+
+.feat-list-2-wrap {
+  display: flex;
+
+} 
+
+
+.feat-item-2 {
+  /* max-width: 180px; */
+}
+
+.ul-wrap {
+  /* display: flex; */
+}
+
+.feat-icon-check {
+  flex-shrink: 0;
+}
+.feat-text {
+}
+.feat-text-span {
+}
 
 /*  */
 
-/*  */
+/* 
