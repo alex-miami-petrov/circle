@@ -47,13 +47,6 @@ ul {
   padding-left: 0;
 }
 
-.title {
-  font-weight: ;
-  font-size: ;
-  line-height: ;
-  color: ;
-}
-
 button {
   cursor: pointer;
 }
@@ -107,8 +100,50 @@ button {
 /* HERO */
 
 .hero {
-  padding-top: ;
-  padding-bottom: ;
+  padding-top: 50px;
+  padding-bottom: 86px;
+}
+
+.hero-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 44px;
+  text-align: center;
+  color: #191619;
+  margin-bottom: 20px;
+  max-width: 779px;
+  text-align: center;
+}
+.hero-text {
+  font-size: 14px;
+  line-height: 1.57;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 447px;
+  text-align: center;
+}
+.hero-btn {
+  display: flex;
+  font-weight: 700;
+
+  letter-spacing: 0.01em;
+  color: #fff;
+  padding: 14px 20px;
+  width: 188px;
+  height: 48px;
+  background-color: #0cbbc7;
+  border: none;
+  margin-bottom: 56px;
+}
+.hero-btn-icon {
+  margin-left: 10px;
+}
+.hero-img {
 }
 
 /*  */
