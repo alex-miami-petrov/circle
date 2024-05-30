@@ -173,6 +173,7 @@ button {
 }
 .feat-list {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 50px;
   margin-bottom: 53px;
@@ -180,25 +181,29 @@ button {
 .feat-item {
 }
 .feat-icon {
-}
-.ul-content-wrap {
-  display: flex;
-}
 
-
-.feat-list-2-wrap {
-  display: flex;
 }
+/* .ul-content-wrap {
+  display: flex;
+} */
+
 .feat-list-2 {
-display: flex;
-
-  
+  display: flex;
+  gap: 34px;
+  justify-content: center;
 }
+
+.feat-2-img {
+  margin-right: 10px;
+}
+
 
 .feat-list-2-wrap {
   display: flex;
+}
 
-} 
+
+
 
 
 .feat-item-2 {
@@ -210,7 +215,9 @@ display: flex;
 }
 
 .feat-icon-check {
-  flex-shrink: 0;
+  fill: #0cbbc7;
+stroke-width: 0.20px;
+stroke: #016359;
 }
 .feat-text {
 }
