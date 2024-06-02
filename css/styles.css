@@ -582,9 +582,21 @@ button {
   color: #333;
   padding-left: 20px;
 }
+
+.test-btn-wrap {
+  position: absolute;
+  left: 66.5%;
+  transform: translate(-50%, -309.5%);
+}
+
 .test-right-btn {
   width: 20px;
   height: 20px;
+  border: none;
+  background-color: transparent;
+  flex-shrink: 0;
+  padding: 0;
+  margin-left: 10px;
 }
 .right-icon {
   flex-shrink: 0;
@@ -592,6 +604,10 @@ button {
 .test-left-btn {
   width: 20px;
   height: 20px;
+  border: none;
+  background-color: transparent;
+  flex-shrink: 0;
+  padding: 0;
 }
 .left-icon {
   flex-shrink: 0;
