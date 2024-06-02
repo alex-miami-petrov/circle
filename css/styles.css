@@ -536,11 +536,12 @@ button {
 }
 .test-video {
   position: relative;
+  max-width: 358px;
 }
 .test-play-btn {
   position: absolute;
-  left: 49.5%;
-  transform: translate(-50%, -350%);
+  /* left: 49.5%; */
+  transform: translate(630%, -330%);
   border: none;
   background-color: transparent;
 }
@@ -548,8 +549,8 @@ button {
 }
 .pay-pal-wrap {
   position: absolute;
-  left: 66.5%;
-  transform: translate(-50%, -109.5%);
+  /* left: 66.5%; */
+  transform: translate(187%, -100%);
   background-color: #edfeff;
   border: 1px solid transparent;
   width: 358px;
@@ -585,8 +586,8 @@ button {
 
 .test-btn-wrap {
   position: absolute;
-  left: 66.5%;
-  transform: translate(-50%, -309.5%);
+  /* left: 66.5%; */
+  transform: translate(1850%, -1720%);
 }
 
 .test-right-btn {
