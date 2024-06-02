@@ -181,7 +181,6 @@ button {
 .feat-item {
 }
 .feat-icon {
-
 }
 /* .ul-content-wrap {
   display: flex;
@@ -197,15 +196,9 @@ button {
   margin-right: 10px;
 }
 
-
 .feat-list-2-wrap {
   display: flex;
-
 }
-
-
-
-
 
 .feat-item-2 {
   /* max-width: 180px; */
@@ -217,8 +210,8 @@ button {
 
 .feat-icon-check {
   fill: #0cbbc7;
-stroke-width: 0.20px;
-stroke: #016359;
+  stroke-width: 0.2px;
+  stroke: #016359;
 }
 .feat-text {
 }
@@ -227,9 +220,7 @@ stroke: #016359;
 
 /* PROMISE */
 
-
 .promise {
-  
   padding-top: 48px;
   padding-bottom: 100px;
 }
@@ -237,7 +228,6 @@ stroke: #016359;
 .prom-container {
   padding-left: 248px;
   padding-right: 210px;
-
 }
 
 .border-top {
@@ -249,29 +239,25 @@ stroke: #016359;
   margin-right: 42px;
   justify-content: space-between;
   align-items: center;
-   
 }
 .prom-text-wrap {
   display: flex;
   flex-direction: column;
-  
 }
 .promise-title {
   font-weight: 700;
-font-size: 8px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-text-align: left;
-color: #0cbbc7;
-margin-bottom: 16px;
-margin-left: 10px;
-
-
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #0cbbc7;
+  margin-bottom: 16px;
+  margin-left: 10px;
 }
 .promise-subtitle {
   font-size: 28px;
-color: #000;
-margin-bottom: 20px;
+  color: #000;
+  margin-bottom: 20px;
 }
 
 .prom-span {
@@ -280,29 +266,61 @@ margin-bottom: 20px;
 
 .promise-text {
   line-height: 1.625;
-color: #676767;
-margin-bottom: 20px;
-max-width: 365px;
+  color: #676767;
+  margin-bottom: 20px;
+  max-width: 365px;
 }
 .promise-btn {
   font-weight: 700;
-font-size: 16px;
-letter-spacing: 0.01em;
-color: #fff;
-padding: 14px 20px;
-width: 167px;
-height: 48px;
-background-color: #0cbbc7;
-border: none;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  padding: 14px 20px;
+  width: 167px;
+  height: 48px;
+  background-color: #0cbbc7;
+  border: none;
 }
 .promise-img {
-
- 
 }
 
 .border-bottom {
   padding-top: 100px;
 }
 
+/* AWARDS  */
 
-/* 
+.awards {
+  padding-top: 106px;
+  padding-bottom: 100px;
+}
+
+.award-title {
+  font-weight: 700;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0cbbc7;
+  margin-bottom: 16px;
+}
+.award-subtitle {
+  font-size: 28px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 60px;
+}
+.award-span {
+  font-weight: 700;
+}
+
+.award-list {
+}
+.award-item {
+}
+.award-wrap {
+}
+.award-img {
+}
+.award-text {
+}
