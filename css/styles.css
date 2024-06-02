@@ -375,7 +375,7 @@ button {
   display: flex;
   justify-content: center;
   margin-right: 50px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .award-border-bottom {
@@ -420,11 +420,32 @@ button {
 }
 .create-icon {
 }
+
+.current {
+  position: relative;
+
+  color: #404bbf;
+  padding-bottom: 20px;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: -76px;
+  border-radius: 2px;
+  background-color: #0cbbc7;
+  width: 236px;
+  height: 3px;
+}
+
 .create-content-wrap {
   display: flex;
   justify-content: center;
   gap: 125px;
   background-color: #edfeff;
+  padding-bottom: 62px;
+  padding-top: 50px;
 }
 .create-text-wrap {
 }
