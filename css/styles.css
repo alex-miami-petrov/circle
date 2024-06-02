@@ -375,6 +375,7 @@ button {
   display: flex;
   justify-content: center;
   margin-right: 50px;
+  margin-bottom: 100px;
 }
 
 .award-border-bottom {
@@ -385,27 +386,79 @@ button {
 /* CREATE */
 
 .create {
+  padding-bottom: 162px;
 }
 
 .create-title {
+  font-weight: 700;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0cbbc7;
+  margin-bottom: 16px;
 }
 .create-subtitle {
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 50px;
 }
+
+.award-span {
+  font-weight: 400;
+}
+
 .create-icon-list {
+  display: flex;
+  gap: 145px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .create-icon-item {
 }
 .create-icon {
 }
 .create-content-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+  background-color: #edfeff;
 }
 .create-text-wrap {
 }
+
+.create-subtitle-2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
 .create-sub-sub {
+  font-weight: 700;
+
+  line-height: 1.62;
+  color: #000;
+  margin-bottom: 10px;
 }
 .create-text {
+  line-height: 1.62;
+  color: #676767;
+  max-width: 359px;
+  margin-bottom: 30px;
 }
 .create-btn {
+  padding: 14px 20px;
+  min-width: 193px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  background-color: #0cbbc7;
+  border: none;
 }
 .create-img {
 }
