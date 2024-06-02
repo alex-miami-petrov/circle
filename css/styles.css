@@ -291,7 +291,6 @@ button {
 /* AWARDS  */
 
 .awards {
-  padding-top: 106px;
   padding-bottom: 100px;
 }
 
@@ -305,6 +304,7 @@ button {
   margin-bottom: 16px;
 }
 .award-subtitle {
+  font-weight: 400;
   font-size: 28px;
   text-align: center;
   color: #000;
@@ -315,12 +315,69 @@ button {
 }
 
 .award-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* row-gap: 50px; */
+  column-gap: 60px;
+  row-gap: 50px;
+  justify-content: center;
 }
 .award-item {
+  width: calc((100% - 96px) / 4);
+  border-radius: 6px;
+  border: 1px solid none;
 }
+
+.one {
+  background-color: #fff5f3;
+}
+
+.two {
+  background-color: #fff0f9;
+}
+
+.three {
+  background-color: #ecffff;
+}
+
+.four {
+  background-color: #f6f4ff;
+}
+
+.five {
+  background-color: #fff9e7;
+}
+
+.six {
+  background-color: #ffede4;
+}
+
 .award-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 47px;
 }
 .award-img {
+  margin-bottom: 10px;
 }
 .award-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: #000;
+  max-width: 171px;
+}
+
+.a-w {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.award-border-bottom {
+  padding-top: 100px;
+  margin-left: 50px;
 }
