@@ -613,3 +613,60 @@ button {
 .left-icon {
   flex-shrink: 0;
 }
+
+.test-border-bottom {
+  padding-top: 100px;
+}
+
+/* CONSULTATION */
+
+.consultation {
+  padding-bottom: 100px;
+}
+
+.consult-content-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.consult-text-wrap {
+}
+.consult-title {
+  font-weight: 400;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 15px;
+  max-width: 286px;
+}
+.consult-span {
+  font-weight: 700;
+}
+.consult-text {
+  line-height: 1.62;
+  color: #676767;
+  margin-bottom: 33px;
+  max-width: 359px;
+}
+.link-btn {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 20px;
+  width: 117px;
+  height: 38px;
+  background-color: #0cbbc7;
+}
+.consult-btn {
+  margin-left: 20px;
+  border: 1px solid #0cbbc7;
+  padding: 10px 20px;
+  min-width: 203px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #0cbbc7;
+  background-color: transparent;
+}
+.consult-img {
+  margin-right: 60px;
+}
