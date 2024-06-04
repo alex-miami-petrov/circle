@@ -827,7 +827,7 @@ button {
   justify-content: center;
   align-items: center;
   max-width: 1440px;
-  padding-right: 64px;
+  padding-right: 138px;
   padding-left: 150px;
   margin: 0 auto;
 }
@@ -851,8 +851,8 @@ button {
 }
 .policy-list {
   display: flex;
-  gap: 10px;
-  margin-right: 80px;
+  gap: 14px;
+  /* margin-right: 80px; */
 }
 .policy-item {
   font-family: "Raleway", sans-serif;
@@ -861,7 +861,7 @@ button {
   color: #9b9b9b;
   border-right: 1px solid #9b9b9b;
   height: 10px;
-  padding-right: 10px;
+  padding-right: 14px;
 }
 
 .policy-item:last-child {
